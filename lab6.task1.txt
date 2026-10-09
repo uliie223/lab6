@@ -1,0 +1,32 @@
+
+\f0\fs24 \cf0 92 ?- consult('/Users/fooza/Downloads/Cars(2).pl').
+
+true.
+
+
+92 ?- current_predicate(can_buy/2).
+
+true.
+
+
+93 ?- can_buy(100000, red).
+
+With 80000 you can purchase the red car datsun
+
+true .
+
+
+
+94 ?- can_buy(100000, blue).
+
+With 80000 you can purchase the blue truck ford
+
+true.
+
+
+
+95 ?- can_buy(100000, green).
+
+false.
+
+
